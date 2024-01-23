@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headder {
+    background-color: #fff; /* Background color for the header */
+    padding: 10px;
+    display: flex;
+}
+
+.headder a {
+    text-decoration: none;
+}
+
+.headder img {
+    width: 40px; /* Adjust the image size as needed */
+    margin-right: 10px;
+}
+
+.headder h1 {
+    color: grey;
+    margin: 0;
+}
+
+#search {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 750px;
+}
+
+#search-icon {
+    background-color: white;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+#verticle-line{
+    width: 100%;
+    height: 2px;
+    background-color: silver;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pages {
+    text-align: center; 
+}
+.pages ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+   
+}
+.pages li {
+    display: inline-block;
+    margin-right: 10px; 
+    padding: 10px 10px;
+    
+}
+.pages a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px; 
+}
+
+
+.pages a:hover{
+    color: grey;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+.cover{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.cover img{
+    width: 95%;
+    height: 80vh;
+    border-radius: 5px;
+    display: block;
+    margin:0 auto ;
+    margin-top: 10px;
+}
+.cover h2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-family: 'poppins', sans-serif; 
+    font-size: 2.5em; 
+    color: black; 
+}
+.breakfast {
+    text-align: center;
+    padding: 50px 0; 
+    background-color: #f8f8f8; 
+    
+}
+
+.breakfast h1 {
+    font-size: 2.5em; 
+    color: #333; 
+}
+
+.breakfast p {
+    font-size: 1.2em; 
+    color: #666; 
+    line-height: 1.5; 
+    margin-top: 20px; 
+}
+
+.breakfast-menu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(102, 102, 102, 0.5);
+    transition: background-color 0.3s; 
+}
+
+.box:hover {
+    background-color: rgba(102, 102, 102, 0.8); 
+}
+
+.box img{
+    width:180px;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: auto;
+}
+
+.breakfast-menu2{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.box h2{
+    margin-top: auto; 
+    text-align: center; 
+    color: black;
+    font-size: 1.0em;
+}
+
+.Know-more {
+    padding: 4px 8px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Know-more:hover {
+    background-color: #2980b9;
+}
+
+.Lunch-menu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.Lunch-menu2{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.Lunch {
+    text-align: center;
+    padding: 50px 0; 
+    background-color: #f8f8f8; 
+    
+}
+.Lunch h1 {
+    font-size: 2.5em; 
+    color: #333; 
+}
+
+.Lunch p {
+    font-size: 1.2em; 
+    color: #666; 
+    line-height: 1.5; 
+    margin-top: 20px; 
+}
+.Dinner {
+    text-align: center;
+    padding: 50px 0; 
+    background-color: #f8f8f8; 
+    
+}
+.Dinner h1 {
+    font-size: 2.5em; 
+    color: #333; 
+}
+
+.Dinner p {
+    font-size: 1.2em; 
+    color: #666; 
+    line-height: 1.5; 
+    margin-top: 20px; 
+}
+.Dinner-menu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.Dinner-menu2{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+.Dessert {
+    text-align: center;
+    padding: 50px 0; 
+    background-color: #f8f8f8; 
+    
+}
+.Dessert h1 {
+    font-size: 2.5em; 
+    color: #333; 
+}
+
+.Dessert p {
+    font-size: 1.2em; 
+    color: #666; 
+    line-height: 1.5; 
+    margin-top: 20px; 
+}
+
+.Dessert-menu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+
+.Dessert-menu2{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(recipe\ bg.jpg);
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+
+}
+
+#verticle-line{
+    width: 100%;
+    height: 2px;
+    background-color: silver;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px ;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:black;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: black;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: white;
+    background-color: black;
+}
